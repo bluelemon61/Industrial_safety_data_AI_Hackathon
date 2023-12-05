@@ -22,7 +22,7 @@ params = {
   'seed': 555,
   'mean': [0.485, 0.456, 0.406],
   'std': [0.229, 0.224, 0.225],
-  'workers': 2, # 본인 cpu 코어의 절반 정도
+  'workers': 3, # 본인 cpu 코어의 절반 정도
   'num_show_img': 5, # 데이터 확인 시 보여줄 데이터 개수
   'momentum': 0.9,
   'weight_decay': 1e-4,
