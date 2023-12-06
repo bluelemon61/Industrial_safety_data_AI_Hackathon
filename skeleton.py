@@ -1,3 +1,8 @@
+
+# Deprecated CODE!!
+# ipynb 파일로 옮기기전 테스트 해본 파일
+# skeleton.ipynb을 기반으로 코드를 돌려보세옹
+
 import time
 import copy
 import random
