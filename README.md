@@ -41,18 +41,17 @@ Paper: [https://arxiv.org/abs/1905.11946](https://arxiv.org/abs/1905.11946)
 
 - 모델이 올바르게 분석한 Case
 ![GradCam True](image-3.png)
-철탑의 경우 철탑만, 배전설비 작업은 전선, 변전 설비 작업은 변전 관련 설비, 건축 전기 설비 작업은 전선과 사다리 등의 사물을 보고 판단을 내린 것을 알 수 있다.
+<br>철탑의 경우 철탑만, 배전설비 작업은 전선, 변전 설비 작업은 변전 관련 설비, 건축 전기 설비 작업은 전선과 사다리 등의 사물을 보고 판단을 내린 것을 알 수 있다.
 
 - 모델이 올바르지 않게 분석한 Case
 ![GradCam False](image-4.png)
-해당 공정과 관련된 사물이 아닌 나무와 하늘과 같은 배경을 보고 분류 결정을 내린 것을 확인 할 수 있다. 특히 지중 송전 설비 작업과 같은 경우, 학습 데이터 중 야간에 촬영된 사진이 많아 하늘이 밤하늘이라면 해당 공정으로 분류한 사례가 많았다.
+<br>해당 공정과 관련된 사물이 아닌 나무와 하늘과 같은 배경을 보고 분류 결정을 내린 것을 확인 할 수 있다. 특히 지중 송전 설비 작업과 같은 경우, 학습 데이터 중 야간에 촬영된 사진이 많아 하늘이 밤하늘이라면 해당 공정으로 분류한 사례가 많았다.
 
 ### 개발 환경
 - Python 3.9 with Venv
 - pytorch torchvision pytorch-cuda=12.1 numpy, Pillow, scikit-learn, matplotlib
-- grad-cam, https://github.com/jacobgil/pytorch-grad-cam
-- EfficientNet:	
-https://github.com/lukemeals/EfficientNet-PyTorch
+- grad-cam, [https://github.com/jacobgil/pytorch-grad-cam](https://github.com/jacobgil/pytorch-grad-cam)
+- EfficientNet:	[https://github.com/lukemeals/EfficientNet-PyTorch](https://github.com/lukemelas/EfficientNet-PyTorch)
 
 - Font for Pyplot: 맑은고딕
 
