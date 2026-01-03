@@ -1,3 +1,5 @@
+### 👉English README👈
+
 # 대회 개요
 GitHub: [https://github.com/bluelemon61/Industrial_safety_data_AI_Hackathon](https://github.com/bluelemon61/Industrial_safety_data_AI_Hackathon)
 
